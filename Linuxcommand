@@ -1,0 +1,33 @@
+Steps and Commands for Server Login, User Management, SSH Keys, File/Folder Operations, and Permissions.
+
+To login in to a server -----  	ssh username@server_ip
+To add a new user	------- sudo adduser username e.g adduser Tope
+To switch user	--------	su - username
+To check permission--------	ll
+To change permission -------	chmod  700 foldername (note 700 is an e.g)
+To create directory ------	mkdir foldername
+To create file ------		touch filename
+To generate key --------	ssh-keygen
+To edit folder -------		vi foldername
+other commands -----	pwd       show current location
+			cd ~      home directory
+			cd ..     move up one directory
+			ls        list files
+			ls -la    list all including hidden
+
+ Notes
+keys used for authentication: private key and public key
+Private key is the secret key, never to be shared, it stays on the computer, never stored on the server usually stored in .ssh folder
+Public Key is the open key shared with the server, stores in the server file .ssh/authorised_keys
+
+step to creating a new user
+1.	Create new user
+2.	Create SSH folder
+3.	Put public key 
+4.	Fix permissions 
+5.	Test login
+
+
+
+
+
