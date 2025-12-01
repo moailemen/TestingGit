@@ -32,3 +32,41 @@ testing
 
 
 
+
+ GIt and GITHUB (25/11/25)
+
+Git --- tool on laptop to track changes in files (like version 	history).
+
+GitHub ---- website where to store Git projects online and share/sync them.
+
+ Accessing GitHub by cloning of Repo
+
+steps to clone a repo
+
+	Created repo on GitHub
+
+	Copied the link (HTTPS )
+	created  a directory to store the intended repo folder
+
+	Ran ---git clone "link copied"----
+
+	Git created TestingGit folder automatically
+
+
+GIT commands 
+
+To commit a file------	git commit -m "Add notes file" (-m is to include a msg)
+To know GIT version ----	git --version
+To clone a repo --- git clone https://github.com/username/repo-name.git
+
+``
+
+
+Challenges/ Observation
+
+
+when checked the details of the git account running (git config --global --list), it was the old one, alizinatjuinor. 
+how? i taught all that was done was on the new account. then i realised we access the github via git by cloning  the repo 
+from GitHub
+
+
